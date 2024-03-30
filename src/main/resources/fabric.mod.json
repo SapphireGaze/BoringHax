@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "boring_hax",
+  "version": "${version}",
+  "name": "BoringHax",
+  "description": "",
+  "authors": [
+    "SapphireGaze"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/BoringHax/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "sapphiregaze.boringhax.client.BoringHaxClient"
+    ],
+    "main": [
+      "sapphiregaze.boringhax.BoringHax"
+    ]
+  },
+  "mixins": [
+    "BoringHax.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.7",
+    "fabric": "*",
+    "minecraft": "1.18.1"
+  }
+}
